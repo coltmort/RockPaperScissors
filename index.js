@@ -38,11 +38,9 @@ if (computerChoice() === 0){
     computerAnswer = 'r'
 } else if (computerChoice() === 1){
     computerAnswer = 'p'
-} else if ( computerChoice() === 2){
-    computerAnswer = 's'
 } else {
-    console.log('error')
-}
+    computerAnswer = 's'
+} 
 
 console.log('compAns ' + computerAnswer)
 
